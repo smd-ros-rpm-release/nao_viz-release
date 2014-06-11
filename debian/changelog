@@ -1,0 +1,8 @@
+ros-indigo-nao-dashboard (0.1.1-0trusty) trusty; urgency=high
+
+  * fix bad dependency definition
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 10 Jun 2014 22:00:00 -0000
+
+
