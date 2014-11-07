@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-dashboard
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-diagnostic-aggregator, ros-hydro-diagnostic-msgs, ros-hydro-naoqi-msgs, ros-hydro-pluginlib, ros-hydro-rqt-robot-monitor
+Homepage: http://ros.org/wiki/nao_dashboard
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-dashboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-aggregator, ros-hydro-diagnostic-msgs, ros-hydro-naoqi-msgs, ros-hydro-rqt-robot-dashboard, ros-hydro-rqt-robot-monitor
+Description: nao_dashboard is a GUI for monitoring the state of a Nao robot. It is a port of pr2_dashboard and shows status information like battery status, joint temperatures, and joint stiffness, as well as integrating ROS tools like rxconsole and robot_monitor.
