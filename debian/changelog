@@ -1,0 +1,15 @@
+ros-hydro-nao-dashboard (0.1.2-0quantal) quantal; urgency=high
+
+  * switch to using naoqi_msgs and not nao_msgs
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 06 Nov 2014 23:00:00 -0000
+
+ros-hydro-nao-dashboard (0.1.1-0quantal) quantal; urgency=high
+
+  * fix bad dependency definition
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 10 Jun 2014 22:00:00 -0000
+
+
